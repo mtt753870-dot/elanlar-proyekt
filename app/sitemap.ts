@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next'; export default function sitemap():MetadataRoute.Sitemap{return [{url:'https://003moto.az',lastModified:new Date()},{url:'https://003moto.az/motosikletler',lastModified:new Date()},{url:'https://003moto.az/login',lastModified:new Date()},{url:'https://003moto.az/register',lastModified:new Date()}]}

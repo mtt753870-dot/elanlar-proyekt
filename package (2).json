@@ -1,0 +1,17 @@
+{
+  "name": "003moto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "lucide-react": "^1.52.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

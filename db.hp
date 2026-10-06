@@ -1,0 +1,12 @@
+<?php
+$host = "localhost";
+$user = "root";   // XAMPP-da default istifadəçi
+$pass = "";       // parol boş olur
+$dbname = "003moto";
+
+$conn = mysqli_connect($host, $user, $pass, $dbname);
+
+if (!$conn) {
+    die("Bağlantı xətası: " . mysqli_connect_error());
+}
+?>
